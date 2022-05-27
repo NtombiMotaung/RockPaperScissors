@@ -1,1 +1,1 @@
-print("rock")
+print("WELCOME TO ROCK,PAPER,SCISSORS GAME")
