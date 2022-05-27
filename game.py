@@ -7,4 +7,7 @@ def info():
     scissors beats paper
     """)
 
-info()
+def game():
+    print("Please enter either r for rock, p for paper or s for scissors")
+    hand = input("> ")
+    options = ["r", "p", "s"]
