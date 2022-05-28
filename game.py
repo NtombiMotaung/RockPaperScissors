@@ -8,6 +8,12 @@ def info():
     """)
 
 def game():
-    print("Please enter either r for rock, p for paper or s for scissors")
-    hand = input("> ")
+    hand = input("Please enter either r for rock, p for paper or s for scissors: ")
     options = ["r", "p", "s"]
+    
+    if hand in options:
+        print("yaay")
+    else:
+        print("nah")
+
+game()
